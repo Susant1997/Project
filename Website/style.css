@@ -1,0 +1,70 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+body{
+    
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+li, a, button{
+    font-family: 'Courgette', cursive;
+    font-weight:600;
+    font-size: 20px;
+    color: #060b0ce3;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+  background-color: blanchedalmond;
+}
+    
+.logo{
+    cursor: pointer;
+}
+.nav_links{
+list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav_links li a{
+    transition: alt 0.3s ease 0s;
+
+}
+.nav_links li a:hover{
+    color: #0088a9;
+    
+}
+.rgt{
+    padding: 5px 5px;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: rgba(0,136,169,1);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: alt 0.3s ease 0s;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}

@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.about{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("about.jpg");
+    background-size: cover;
+    }
+    
+    
+    
+    .about .content{
+        max-width: 600px;
+        text-align: center;
+    }
+    .about .content h1 {
+        font-size: 40px;
+        font-weight: 600;
+        color:#00bcd4;
+    }
+    .about .content p {
+        font-size: 20px;
+        font-weight: 100;
+        color: burlywood;
+    }
